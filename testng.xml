@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<test name="GCTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="practice.program.ParallelExecution" />
+		</classes>
+	</test>
+	<test name="FFTest">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="practice.program.ParallelExecution" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
